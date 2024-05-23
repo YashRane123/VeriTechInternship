@@ -1,0 +1,1282 @@
+body{
+    background-color: rgb(181, 226, 211);
+}
+.sec1 .left_design{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 1px;
+    width: 10%;
+    height: 10%;
+    right: 0;
+    background-color: #c070b9;
+}
+.left_box{
+    /* border: 2px solid black; */
+    position: absolute;
+    width: 38%;
+    height: 94%;
+    transform: rotate(48deg);
+    right: 85%;
+    background-color: rgb(181, 226, 211);
+    overflow: hidden;
+}
+/* ------------------------SECTION 2----------------------------- */
+.middle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    /* border: 2px solid black; */
+    /* top: 2em; */
+    margin-top: 6em;
+    align-items: center;
+    height: 23.5%;
+    width: 99%;
+}
+.sec2 .middle #heading1{
+    position: absolute;
+    margin: auto;
+    /* border: 2px solid green; */
+    top: 6px;
+    padding: 5px 65px;
+    font-size: x-large;
+    background-color: #c070b9;
+    color: white;
+    border-radius: 7px;
+}
+.sec2 .middle #content{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    width: 64%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 12px;
+    margin: 15px 10px;
+    top: 44px;
+}
+.sec2 .middle #line{
+    /* border: 2px solid blue; */
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+}
+.sec2 .middle #line hr{
+    border-top: 2px dashed #c070b9;
+}
+
+/* --------------------SECTION-3-------------------- */
+.sec3{
+    /* border: 2px solid blue; */
+    display: flex;
+    /* flex-direction: column; */
+    position: absolute;
+    top: 18em;
+    width: 99%;
+    height: 59%;
+    justify-content: center;
+    /* align-items: center; */
+}
+.sec3 .heading{
+    /* border: 2px solid black; */
+    position: absolute;
+    padding: 2px 19px;
+}
+.sec3 .heading h3{
+    font-weight: bold;
+    font-size: 22px;
+}
+.sec3 .sub_heading{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 5rem;
+    font-size: 17px;
+    background-color: #c070b9;
+    padding: 4px 8px;
+    border-radius: 7px;
+    color: white;
+}
+.sec3 .first_line{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 8rem;
+    width: 25%;
+    height: 35%;
+    padding: 2px 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec3 .first_line #box1{
+    /* border: 2px solid violet; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin-top: 2px;
+}
+.sec3 .first_line #box1 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 2px 32px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec3 .first_line #box1 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec3 .first_line #box1 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec3 .first_line #box1 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 19%;
+    height: 48%;
+    top: 10px;
+    z-index: -1;
+    left: 65px;
+}
+.sec3 .first_line #box1 #c2{
+    /* border: 2px solid green; */
+    padding: 2px 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+.sec3 .first_line #box1 #c3{
+    /* border: 2px solid brown; */
+    margin-top: 2px;
+    padding: 2px 2px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+.sec3 .first_line #box2{
+    width: 35%;
+    /* border: 2px solid blue; */
+}
+.sec3 .first_line #box2{
+    /* border: 2px solid violet; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin-top: 2px;
+}
+.sec3 .first_line #box2 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 2px 32px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec3 .first_line #box2 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec3 .first_line #box2 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec3 .first_line #box2 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 19%;
+    height: 48%;
+    top: 10px;
+    z-index: -1;
+    right: 74px;
+}
+.sec3 .first_line #box2 #c2{
+    /* border: 2px solid green; */
+    padding: 2px 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+.sec3 .first_line #box2 #c3{
+    /* border: 2px solid brown; */
+    margin-top: 2px;
+    padding: 2px 2px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.sec3 .second_line{
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 18rem;
+    width: 33%;
+    height: 31%;
+    padding: 2px 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec3 .second_line #box1{
+    /* border: 2px solid violet; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin-top: 2px;
+}
+.sec3 .second_line #box1 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 2px 32px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec3 .second_line #box1 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec3 .second_line #box1 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec3 .second_line #box1 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 15%;
+    height: 55%;
+    top: 6px;
+    z-index: -1;
+    left: 30px;
+}
+.sec3 .second_line #box1 #c2{
+    /* border: 2px solid green; */
+    padding: 2px 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+.sec3 .second_line #box1 #c3{
+    /* border: 2px solid brown; */
+    margin-top: 2px;
+    padding: 2px 2px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+.sec3 .second_line #box2{
+    width: 35%;
+    /* border: 2px solid blue; */
+}
+.sec3 .second_line #box2{
+    /* border: 2px solid violet; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin-top: 2px;
+}
+.sec3 .second_line #box2 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 2px 32px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec3 .second_line #box2 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec3 .second_line #box2 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec3 .second_line #box2 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 15%;
+    height: 53%;
+    top: 6px;
+    z-index: -1;
+    left: 38.5%;
+}
+.sec3 .second_line #box2 #c2{
+    /* border: 2px solid green; */
+    padding: 2px 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+.sec3 .second_line #box2 #c3{
+    /* border: 2px solid brown; */
+    margin-top: 2px;
+    padding: 2px 2px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.sec3 .second_line #box3{
+    /* border: 2px solid violet; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 4px;
+    margin-top: 2px;
+}
+.sec3 .second_line #box3 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 2px 32px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec3 .second_line #box3 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec3 .second_line #box3 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec3 .second_line #box3 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 15%;
+    height: 56%;
+    top: 6px;
+    z-index: -1;
+    right: 67px;
+}
+.sec3 .second_line #box3 #c2{
+    /* border: 2px solid green; */
+    padding: 2px 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+.sec3 .second_line #box3 #c3{
+    /* border: 2px solid brown; */
+    margin-top: 2px;
+    padding: 2px 2px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+/* ----------------SECTION 4----------------- */
+.sec4{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45em;
+    width: 99%;
+    height: 59%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.sec4 .dabba1{
+    /* border: 2px solid red; */
+    height: 20%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.sec4 .dabba1 #id1{
+    /* border: 2px solid blue; */
+    display: block;
+    /* position: absolute; */
+    width: 14%;
+    background-color: #c070b9;
+}
+.sec4 .dabba1 #id2{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    left: 8em;
+    border-top: 46px solid transparent;
+    border-right: 92px solid rgb(181, 226, 211);
+    border-bottom: 42px solid transparent;
+    overflow: hidden;
+}
+.sec4 .dabba1 #id3{
+    height: 45%;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    background-color: #c070b9;
+    /* margin: auto; */
+    width: 15%;
+    padding: 2px 3px;
+    margin: 16px 27em;
+    align-items: center;
+    text-align: center;
+}
+.sec4 .dabba1 #id3 h3{
+    font-size: x-large;
+    position: absolute;
+    padding: 1px 17px;
+    margin: 3px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.sec4 .dabba2{
+    /* border: 2px solid black; */
+    height: 45%;
+    margin: 2px 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec4 .dabba2 #id1{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+
+.sec4 .dabba2 #id1 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec4 .dabba2 #id1 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec4 .dabba2 #id1 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec4 .dabba2 #id1 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    left: 154px;
+}
+
+.sec4 .dabba2 #id1 #c2{
+    padding: 4px 3.2em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec4 .dabba2 #id1 #c3{
+    font-size: smaller;
+    padding: 2px 5em;
+    font-style: italic;
+}
+.sec4 .dabba2 #id2{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+.sec4 .dabba2 #id2 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec4 .dabba2 #id2 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec4 .dabba2 #id2 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec4 .dabba2 #id2 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    left: 33em;
+}
+
+.sec4 .dabba2 #id2 #c2{
+    padding: 4px 3.2em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec4 .dabba2 #id2 #c3{
+    font-size: smaller;
+    padding: 2px 4em;
+    font-style: italic;
+}
+
+
+.sec4 .dabba2 #id3{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+
+.sec4 .dabba2 #id3 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec4 .dabba2 #id3 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec4 .dabba2 #id3 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec4 .dabba2 #id3 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    right: 33em;
+}
+
+.sec4 .dabba2 #id3 #c2{
+    padding: 4px 3.2em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec4 .dabba2 #id3 #c3{
+    font-size: smaller;
+    padding: 2px 4em;
+    font-style: italic;
+}
+
+
+.sec4 .dabba2 #id4{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+.sec4 .dabba2 #id4 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec4 .dabba2 #id4 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec4 .dabba2 #id4 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec4 .dabba2 #id4 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    right: 154px;
+}
+
+.sec4 .dabba2 #id4 #c2{
+    padding: 4px 3.2em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec4 .dabba2 #id4 #c3{
+    font-size: smaller;
+    padding: 2px 4em;
+    font-style: italic;
+}
+
+
+.sec4 .dabba3{
+    /* border: 2px solid pink; */
+    margin: 1px 18em;
+    height: 35%;
+    width: 62%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec4 .dabba3 #id1{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: auto;
+}
+
+
+.sec4 .dabba3 #id1 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec4 .dabba3 #id1 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec4 .dabba3 #id1 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec4 .dabba3 #id1 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 68%;
+    z-index: -1;
+    left: 27%;
+}
+
+.sec4 .dabba3 #id1 #c2{
+    padding: 4px 4em;
+    margin-top: -1em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec4 .dabba3 #id1 #c3{
+    font-size: smaller;
+    padding: 2px 5em;
+    font-style: italic;
+}
+
+
+.sec4 .dabba3 #id2{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: auto;
+}
+
+.sec4 .dabba3 #id2 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec4 .dabba3 #id2 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec4 .dabba3 #id2 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec4 .dabba3 #id2 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 68%;
+    z-index: -1;
+    left: 47.5%;
+}
+
+.sec4 .dabba3 #id2 #c2{
+    padding: 4px 4em;
+    margin-top: -1em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec4 .dabba3 #id2 #c3{
+    font-size: smaller;
+    padding: 2px 5em;
+    font-style: italic;
+}
+
+
+.sec4 .dabba3 #id3{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: auto;
+}
+
+.sec4 .dabba3 #id3 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec4 .dabba3 #id3 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec4 .dabba3 #id3 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec4 .dabba3 #id3 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 68%;
+    z-index: -1;
+    right: 26.6%;
+}
+
+.sec4 .dabba3 #id3 #c2{
+    padding: 4px 4em;
+    margin-top: -1em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec4 .dabba3 #id3 #c3{
+    font-size: smaller;
+    padding: 2px 5em;
+    font-style: italic;
+}
+
+/* -----------------SECTION-5----------------- */
+.sec5{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72em;
+    width: 99%;
+    height: 59%;
+}
+
+.sec5 .dabba1{
+    /* border: 2px solid red; */
+    height: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-around; */
+}
+.sec5 .dabba1 #id1{
+    /* border: 2px solid blue; */
+    display: block;
+    /* position: absolute; */
+    width: 14%;
+    background-color: #c070b9;
+}
+.sec5 .dabba1 #id2{
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 8.2em;
+    border-top: 46px solid transparent;
+    border-right: 92px solid rgb(181, 226, 211);
+    border-bottom: 42px solid transparent;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+.sec5 .dabba1 #id3{
+    height: 45%;
+    /* border: 2px solid black; */
+    border-radius: 7px;
+    background-color: #c070b9;
+    /* margin: auto; */
+    width: 15%;
+    padding: 2px 3px;
+    margin: 16px 27em;
+    align-items: center;
+    text-align: center;
+}
+.sec5 .dabba1 #id3 h3{
+    font-size: 19px;
+    position: absolute;
+    padding: 1px 8px;
+    margin: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+
+
+.sec5 .dabba2{
+    /* border: 2px solid black; */
+    height: 45%;
+    margin: 2px 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec5 .dabba2 #id1{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+
+.sec5 .dabba2 #id1 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec5 .dabba2 #id1 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec5 .dabba2 #id1 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec5 .dabba2 #id1 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    left: 154px;
+}
+
+.sec5 .dabba2 #id1 #c2{
+    padding: 4px 3.8em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec5 .dabba2 #id1 #c3{
+    font-size: smaller;
+    padding: 2px 5.8em;
+    font-style: italic;
+}
+.sec5 .dabba2 #id2{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+.sec5 .dabba2 #id2 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec5 .dabba2 #id2 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec5 .dabba2 #id2 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec5 .dabba2 #id2 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    left: 33em;
+}
+
+.sec5 .dabba2 #id2 #c2{
+    padding: 4px 3.8em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec5 .dabba2 #id2 #c3{
+    font-size: smaller;
+    padding: 2px 5.8em;
+    font-style: italic;
+}
+
+
+.sec5 .dabba2 #id3{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+
+.sec5 .dabba2 #id3 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec5 .dabba2 #id3 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec5 .dabba2 #id3 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec5 .dabba2 #id3 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    right: 33em;
+}
+
+.sec5 .dabba2 #id3 #c2{
+    padding: 4px 3.8em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec5 .dabba2 #id3 #c3{
+    font-size: smaller;
+    padding: 2px 5.8em;
+    font-style: italic;
+}
+
+
+.sec5 .dabba2 #id4{
+    /* border: 2px solid blue; */
+    width: 15%;
+    height: 90%;
+}
+
+.sec5 .dabba2 #id4 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec5 .dabba2 #id4 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec5 .dabba2 #id4 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec5 .dabba2 #id4 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 6em;
+    z-index: -1;
+    right: 154px;
+}
+
+.sec5 .dabba2 #id4 #c2{
+    padding: 4px 3.8em;
+    margin-top: -2em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec5 .dabba2 #id4 #c3{
+    font-size: smaller;
+    padding: 2px 5.8em;
+    font-style: italic;
+}
+
+
+
+
+.sec5 .dabba3{
+    /* border: 2px solid pink; */
+    margin: 1px 18em;
+    height: 35%;
+    width: 62%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec5 .dabba3 #id1{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: auto;
+}
+
+
+.sec5 .dabba3 #id1 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec5 .dabba3 #id1 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec5 .dabba3 #id1 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec5 .dabba3 #id1 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 68%;
+    z-index: -1;
+    left: 27%;
+}
+
+.sec5 .dabba3 #id1 #c2{
+    padding: 4px 4em;
+    margin-top: -1em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec5 .dabba3 #id1 #c3{
+    font-size: smaller;
+    padding: 2px 5em;
+    font-style: italic;
+}
+
+
+.sec5 .dabba3 #id2{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: auto;
+}
+
+.sec5 .dabba3 #id2 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec5 .dabba3 #id2 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec5 .dabba3 #id2 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec5 .dabba3 #id2 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 68%;
+    z-index: -1;
+    left: 47.5%;
+}
+
+.sec5 .dabba3 #id2 #c2{
+    padding: 4px 4em;
+    margin-top: -1em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec5 .dabba3 #id2 #c3{
+    font-size: smaller;
+    padding: 2px 5em;
+    font-style: italic;
+}
+
+
+.sec5 .dabba3 #id3{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: auto;
+}
+
+.sec5 .dabba3 #id3 #c1{
+    /* border: 2px solid yellow; */
+    height: 50%;
+    padding: 12px 87px;
+    /* align-content: center; */
+    /* margin: auto; */
+}
+.sec5 .dabba3 #id3 #c1::before{
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+    overflow: auto;
+}
+.sec5 .dabba3 #id3 #c1 i{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+.sec5 .dabba3 #id3 #c1 #shape{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #bebebe;
+    width: 5%;
+    height: 18%;
+    top: 68%;
+    z-index: -1;
+    right: 26.6%;
+}
+
+.sec5 .dabba3 #id3 #c2{
+    padding: 4px 4em;
+    margin-top: -1em;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: cursive;
+}
+.sec5 .dabba3 #id3 #c3{
+    font-size: smaller;
+    padding: 2px 5em;
+    font-style: italic;
+}
+
+/* ----------------------SECTION 6-------------------------- */
+.sec6{
+    /* border: 2px solid blue; */
+    height: 11%;
+    display: flex;
+    position: absolute;
+    top: 99em;
+    width: 99%
+
+}
+.sec6 .dabba1{
+    /* border: 2px solid red; */
+    height: 96%;
+    width: 14%;
+    display: flex;
+}
+.sec6 .dabba1 #id1{
+    /* border: 2px solid blue; */
+    display: block;
+    /* position: absolute; */
+    width: 100%;
+    background-color: #c070b9;
+}
+.sec6 .dabba1 #id2{
+    position: absolute;
+    top: -7px;
+    width: 0;
+    height: 0;
+    left: 8em;
+    border-top: 46px solid transparent;
+    border-right: 92px solid rgb(181, 226, 211);
+    border-bottom: 42px solid transparent;
+    overflow: hidden;
+}

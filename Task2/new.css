@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+.head{
+    background: url('head.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.head-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.head h1 {
+    font-size: 2rem;
+}
+
+.head p {
+    font-size: 1.3rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #28a745;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.introduction{
+    padding: 50px 20px;
+    text-align: center;
+}
+.introduction video{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+.features{
+    padding: 50px 20px;
+    text-align: center;
+}
+.features .feature-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.features .feature-item{
+    flex: 1 1 300px;
+    margin: 20px;
+    text-align: center;
+}
+.features img{
+    width: 50px;
+    height: 50px;
+}
+.cta{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: aquamarine;
+}
+footer{
+    text-align: center;
+    background-color: #292828ba;
+    color: white;
+    padding: 20px
+}
+footer a{
+    color:#28a745;
+    text-decoration: none;
+}
+footer .social a{
+    margin: 0 10px;
+} 
+footer .social a img{
+    width: 50px;
+    height: 50px;
+}
+footer form{
+    margin-top: 20px;
+}
+footer input[type="email"]{
+    padding: 10px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: none;
+}
+footer button{
+    color: white;
+    background-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
